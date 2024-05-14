@@ -33,5 +33,30 @@
     // FS UI Components
     // --------------------------------------------------------
     // Add here the customizations for FastStore UI components.
+
+  // SHADOW
+  --fs-shadow: none;
+  --fs-shadow-darker: 0 0 10px rgb(0 0 0 / 20%);
+  --fs-shadow-hover: 0 1px 4px rgb(0 0 0 / 10%), 0 6px 8px rgb(0 0 0 / 10%);
+
+    // HIERARCHY
+    //--fs-color-primary-bkg: var(--fs-color-main-4);
+    --fs-color-primary-bkg: #000000;
+    --fs-color-primary-bkg-active: var(--fs-color-main-2);
+    --fs-color-primary-bkg-light: var(--fs-color-main-0);
+    --fs-color-primary-bkg-light-active: var(--fs-color-main-1);
+  
+    // SITUATIONS
+    --fs-color-success-bkg: #cee8de;
+    --fs-color-warning-bkg: #f6e0ba;
+  
+    // COMPONENTS & STATES
+    //--fs-color-text-display: var(--fs-color-main-4);
+    --fs-color-text-display: #000000;
+  
+    --fs-color-action-bkg: var(--fs-color-accent-3);
+    --fs-color-action-bkg-hover: var(--fs-color-accent-2);
+    --fs-color-action-bkg-active: var(--fs-color-accent-1);
   }
+  
 }
