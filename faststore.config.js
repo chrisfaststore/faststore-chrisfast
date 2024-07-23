@@ -15,7 +15,7 @@ module.exports = {
 
   // Platform specific configs for API
   api: {
-    storeId: "chrisfast",
+    storeId: "chrisf",
     workspace: 'master',
     environment: 'vtexcommercestable',
     hideUnavailableItems: true,
@@ -83,7 +83,7 @@ module.exports = {
 
   analytics: {
     // https://developers.google.com/tag-platform/tag-manager/web#standard_web_page_installation,
-    gtmContainerId: "GTM-1234567",
+    gtmContainerId: "GTM-MGTFTLXT",
   },
 
   experimental: {
